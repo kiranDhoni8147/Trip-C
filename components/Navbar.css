@@ -1,0 +1,148 @@
+/* NAVBAR */
+.carzonrent-navbar {
+    z-index: 9999;
+    position: fixed;
+    top: 0;
+    padding: 0 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    width: 100vw;
+    color: white;
+    background-color: black;
+    box-sizing: border-box;
+}
+
+.nav-interact {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.nav-hrefs-wrapper {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    cursor: pointer;
+}
+
+.nav-hrefs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+    color: white;
+    font-weight: 600;
+    transition: all 0.15s ease-in-out;
+    position: relative; /* Added to contain the modal */
+}
+
+.nav-hrefs:hover {
+    color: var(--theme-yellow);
+    border-bottom: 4px solid var(--theme-yellow);
+    transform: translateY(-2px);
+}
+
+.biz-sol-modal,
+.services-modal {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: black;
+    color: white;
+    /* border: 1px solid #ccc; */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 999;
+    min-width: 200px; /* Adjust width as needed */
+    width: 500px;
+    box-sizing: border-box;
+}
+.biz-sol-modal {
+    width: 250px;
+}
+
+.nav-hrefs:hover .biz-sol-modal,
+.nav-hrefs:hover .services-modal {
+    display: block;
+}
+
+.biz-sol-list,
+.service-for-biz-list,
+.service-for-individual-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.biz-sol-list-item,
+.service-for-biz-list-item,
+.service-for-individual-list-item {
+    padding: 10px;
+    font-size: 14px;
+    font-weight: 400;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+.biz-sol-list-item:hover,
+.service-for-biz-list-item:hover,
+.service-for-individual-list-item:hover {
+    background-color: var(--theme-yellow);
+    color: black;
+}
+
+.services-for-biz,
+.services-for-individual {
+    width: 50%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.services-for-biz h2,
+.services-for-individual h2 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.login-signup-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 0 20px;
+    height: 55%;
+    border-radius: 10px;
+    font-weight: 600;
+    border: 2px solid var(--theme-yellow);
+    color: black;
+    background-color: #fc0;
+    cursor: pointer;
+    transition: all 0.15s ease-in-out;
+}
+
+.login-signup-btn:hover {
+    background-color: black;
+    color: var(--theme-yellow);
+}
+
+
+@media(max-width:1080px) {
+    .nav-interact {
+        display: none;
+    }
+    .carzonrent-navbar {
+        padding: 5px 15px;
+        width: 100vw;
+    }
+}
