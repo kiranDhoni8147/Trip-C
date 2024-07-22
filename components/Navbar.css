@@ -1,4 +1,4 @@
-/* NAVBAR */
+/* Navbar.css */
 .carzonrent-navbar {
     z-index: 9999;
     position: fixed;
@@ -52,19 +52,15 @@
 .services-modal {
     display: none;
     position: absolute;
-    top: 100%;
+    top: calc(100% + 10px); /* Adjust as necessary */
     left: 0;
     background-color: black;
     color: white;
-    /* border: 1px solid #ccc; */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     z-index: 999;
     min-width: 200px; /* Adjust width as needed */
-    width: 500px;
+    width: 250px; /* Adjust width as needed */
     box-sizing: border-box;
-}
-.biz-sol-modal {
-    width: 250px;
 }
 
 .nav-hrefs:hover .biz-sol-modal,
@@ -72,6 +68,7 @@
     display: block;
 }
 
+/* Additional styles for lists and items */
 .biz-sol-list,
 .service-for-biz-list,
 .service-for-individual-list {
@@ -136,8 +133,7 @@
     color: var(--theme-yellow);
 }
 
-
-@media(max-width:1080px) {
+@media (max-width: 1080px) {
     .nav-interact {
         display: none;
     }
