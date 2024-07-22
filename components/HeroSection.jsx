@@ -34,9 +34,14 @@ const HeroSection = () => {
                     <div className="stat-sub-header text-[18px] font-bold text-center sm:text-[14px]">Servicing Cities</div>
                 </div>
             </div>
-            <FindYourRide/>
             
-
+            <FindYourRide />
+            <TravelExperience />
+            <TravelSolutions />
+            <OurServices />
+            <CompanyStats />
+            <SelfDrive />
+            <WhyChooseUs />
         </div>
     )
 }

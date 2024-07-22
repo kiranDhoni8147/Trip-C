@@ -62,7 +62,7 @@ let AviationTravelSolutions = () => {
           <h2 className="text-2xl sm:text-4xl text-center font-bold tracking-tight text-gray-700 mb-4">First-Class Aviation Travel Solution</h2>
           <h3 className="text-lg sm:text-xl text-center tracking-tight text-gray-950 mb-10">Premier Chauffeur Cab Service for Airports</h3>
           {/* 1st Row */}
-          <div className="mt-6 h grid grid-cols-1 gap-x-6 gap-y-10 sm:gap-x-16 sm:gap-y-28 sm:grid-cols-2 lg:grid-cols-3 xl:gap-x-14">
+          <div className="mt-6 h grid grid-cols-1 gap-x-6 gap-y-10 sm:gap-x-16 sm:gap-y-28 sm:grid-cols-3 lg:grid-cols-3 xl:gap-x-14">
 
             {/* Image1 */}
             <div className="group relative" data-aos="zoom-in">
@@ -109,7 +109,7 @@ let AviationTravelSolutions = () => {
           </div>
 
           {/* 2nd Row */}
-          <div className="mt-6 grid grid-cols-1 gap-x-6 gap-y-10 sm:gap-x-16 sm:gap-y-28 sm:grid-cols-2 lg:grid-cols-3 xl:gap-x-14">
+          <div className="mt-6 grid grid-cols-1 gap-x-6 gap-y-10 sm:gap-x-16 sm:gap-y-28 sm:grid-cols-3 lg:grid-cols-3 xl:gap-x-14">
             {/* Image1 */}
             <div className="group relative" data-aos="zoom-in">
               <div className="aspect-h-1 aspect-w-1 w-full align-middle overflow-hidden rounded-md bg-gray-200 lg:aspect-none group-hover:opacity-75 lg:h-80">
@@ -132,7 +132,7 @@ let AviationTravelSolutions = () => {
           <h2 className="text-2xl sm:text-4xl text-center font-bold tracking-tight text-gray-700 mb-4">Key Corporate Features</h2>
 
           {/* Grid for feature cards */}
-          <div className="mt-6 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
+          <div className="mt-6 grid grid-cols-1 gap-6 sm:grid-cols-3 lg:grid-cols-3">
 
             {/* Feature card 1 */}
             <div className="flex flex-col items-center justify-between p-6 rounded-lg bg-white" data-aos="zoom-in">
@@ -176,7 +176,7 @@ let AviationTravelSolutions = () => {
           </div>
 
 
-          <div className="mt-6 grid grid-cols-1 gap-6 sm:grid-cols-1 lg:grid-cols-2">
+          <div className="mt-6 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-2">
             {/* Feature card 1 */}
             <div className="flex flex-col items-center justify-between p-6 rounded-lg bg-white" data-aos="zoom-in">
               <img

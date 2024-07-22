@@ -11,7 +11,7 @@ const AboutUs = () => {
           href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
         />
       </div>
-      <div className="w-full h-16 mt-7 px-6 md:px-20">
+      <div className="w-full h-16 px-6 md:px-20">
         <a href="#" className="text-gray-500 text-sm mr-5">
           Home
         </a>

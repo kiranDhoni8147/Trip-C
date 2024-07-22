@@ -1,44 +1,34 @@
-import { useEffect } from 'react';
 import React from 'react';
-import TravelSolutions from '../components/TravelSolutions';
-import TravelExperience from '../components/TravelExperience';
-import HeroSection from '../components/HeroSection';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Navbar from '../components/Navbar';
-import OurServices from '../components/OurServices';
-import CompanyStats from '../components/CompanyStats';
-import SelfDrive from '../components/SelfDrive';
-import WhyChooseUs from '../components/WhyChooseUs';
+import HeroSection from '../components/HeroSection';
+import CorporateTravels from '../components/CorporateTravels';
+import SMETravels from '../components/SMETravels';
+import AviationTravelSolutions from '../components/AviationTravelSolutions';
+import GovPSUTravel from '../components/Gov&PSUTravel';
+import HospitalityTravel from '../components/HospitalityTravel';
+import AboutUs from '../components/AboutUs';
+import ContactForm from '../components/ContactUs';
 import Faq from '../components/Faq';
 import Footer from '../components/Footer';
-import './App.css'; 
+import './App.css';
 
 function App() {
-
-
     return (
-        <>
+        <BrowserRouter>
             <Navbar />
+            <Routes>
+                <Route path='/' element={<HeroSection />} />
+                <Route path='/corporatetravels' element={<CorporateTravels />} />
+                <Route path='/smetravels' element={<SMETravels />} />
+                <Route path='/aviationtravelsolutions' element={<AviationTravelSolutions />} />
+                <Route path='/govpsutravel' element={<GovPSUTravel />} />
+                <Route path='/hospitalitytravel' element={<HospitalityTravel />} />
+                <Route path='/aboutus' element={<AboutUs />} />
+                <Route path='/contactus' element={<ContactForm />} />
+            </Routes>
 
-
-            <HeroSection />
-
-
-            <TravelExperience />
-
-
-            <TravelSolutions />
-
-
-            <OurServices />
-
-
-            <CompanyStats />
-
-
-            <SelfDrive />
-
-
-            {/* about us */}
+            {/* About Us */}
             <div className="about-us-wrapper h-fit w-screen box-border flex justify-center">
                 <div className="about-us w-[80%] sm:w-[95%]">
                     <div className="about-us-header mb-[10px] text-[30px] font-bold text-[#343434] sm:text-[22px] sm:pb-[10px]">About Us</div>
@@ -49,15 +39,10 @@ function App() {
                 </div>
             </div>
 
-
-            <WhyChooseUs />
-
-
+            
             <Faq />
-
-
             <Footer />
-        </>
+        </BrowserRouter>
     );
 }
 
