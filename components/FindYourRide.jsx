@@ -75,7 +75,7 @@ const FindYourRide = () => {
 
             <a href="/outstation" className='offer my-4 flex gap-2 sm:hidden'>
                 <img src="https://www.carzonrent.com/webcor/images/icons/percent-discount.svg" alt="" />
-                Explore the all-new Customized Holiday Packages from Carzonrent - Avail 
+                Explore the all-new Customized Holiday Packages from Trip-C- Avail 
                 <span className="bg-yellow-500 items-center px-1"> 15% OFF </span> 
                 on your next Outstation Booking.
             </a>

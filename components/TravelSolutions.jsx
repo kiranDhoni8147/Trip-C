@@ -35,7 +35,7 @@ const TravelSolutions = () => {
                             <i className="fa-solid fa-arrow-right arrow arrow ml-[20px] transition-all duration-[0.2s] ease-in-out hover:ml-[30px]"></i>
                         </span>
                         <div className="travel-sol-info-body mt-[20px] w-[400px] text-[18px] text-[#797979] leading-[30px] sm:mt-[10px] sm:w-full sm:text-[14px] sm:leading-normal sm:my-[10px]">
-                            Carzonrent offers flexible services, allowing corporate travelers to move to a designated area as per their convenience. It ensures reliable transportation for meetings, site visits, and other work-related activities.
+                            Trip-C offers flexible services, allowing corporate travelers to move to a designated area as per their convenience. It ensures reliable transportation for meetings, site visits, and other work-related activities.
                         </div>
                     </div>
                 </div>
@@ -47,7 +47,7 @@ const TravelSolutions = () => {
                             <i className="fa-solid fa-arrow-right arrow arrow ml-[20px] transition-all duration-[0.2s] ease-in-out hover:ml-[30px]"></i>
                         </span>
                         <div className="travel-sol-info-body mt-[20px] w-[400px] text-[18px] text-[#797979] leading-[30px] sm:mt-[10px] sm:w-full sm:text-[14px] sm:leading-normal sm:my-[10px]">
-                            Elevate your SME travel experience with Carzonrent. Enjoy customized solutions, efficient services, and seamless journeys that cater specifically to the unique travel needs of small and medium-sized enterprises. Transform your business travel operations with Carzonrent to foster growth.
+                            Elevate your SME travel experience with Trip-C. Enjoy customized solutions, efficient services, and seamless journeys that cater specifically to the unique travel needs of small and medium-sized enterprises. Transform your business travel operations with Carzonrent to foster growth.
                         </div>
                     </div>
                     <img src="https://www.carzonrent.com/webcor/images/banner/sme.webp" className='travel-solution-img w-[500px] h-[370px] sm:w-full sm:h-auto sm:mb-[10px]' alt="" />
@@ -73,7 +73,7 @@ const TravelSolutions = () => {
                             <i className="fa-solid fa-arrow-right arrow arrow ml-[20px] transition-all duration-[0.2s] ease-in-out hover:ml-[30px]"></i>
                         </span>
                         <div className="travel-sol-info-body mt-[20px] w-[400px] text-[18px] text-[#797979] leading-[30px] sm:mt-[10px] sm:w-full sm:text-[14px] sm:leading-normal sm:my-[10px]">
-                            At Carzonrent, we recognize the specific travel needs of Government bodies and Public Sector Units (PSUs). Our specialized solutions ensure streamlined, reliable, and efficient transportation services that comply with government standards and procedures.
+                            At Trip-C, we recognize the specific travel needs of Government bodies and Public Sector Units (PSUs). Our specialized solutions ensure streamlined, reliable, and efficient transportation services that comply with government standards and procedures.
                         </div>
                     </div>
                     <img src="	https://www.carzonrent.com/webcor/images/banner/airporttravels.webp" className='travel-solution-img w-[500px] h-[370px] sm:w-full sm:h-auto sm:mb-[10px]' alt="" />
@@ -87,7 +87,7 @@ const TravelSolutions = () => {
                             <i className="fa-solid fa-arrow-right arrow arrow ml-[20px] transition-all duration-[0.2s] ease-in-out hover:ml-[30px]"></i>
                         </span>
                         <div className="travel-sol-info-body mt-[20px] w-[400px] text-[18px] text-[#797979] leading-[30px] sm:mt-[10px] sm:w-full sm:text-[14px] sm:leading-normal sm:my-[10px]">
-                            Carzonrent's Hospitality Travel Solutions provide reliable, dedicated cars for staff & seamless transportation for guests, enhancing their stay with punctual, comfortable rides and transparent billing. Drive customer satisfaction and loyalty with our specialized hotel-centric services.
+                            Trip-C's Hospitality Travel Solutions provide reliable, dedicated cars for staff & seamless transportation for guests, enhancing their stay with punctual, comfortable rides and transparent billing. Drive customer satisfaction and loyalty with our specialized hotel-centric services.
                         </div>
                     </div>
                 </div>

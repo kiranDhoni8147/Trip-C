@@ -5,7 +5,7 @@ const Navbar = () => {
     return (
         <div className="carzonrent-navbar">
             <div className="left-logo">
-                <img src="https://www.carzonrent.com/webcor/images/img/cor_logo.svg?v=2028" alt="" />
+                <img src="" alt="" />
             </div>
 
             <div className="nav-interact">
