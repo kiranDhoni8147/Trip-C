@@ -6,9 +6,8 @@ const Navbar = () => {
     return (
         <div className="carzonrent-navbar">
             <div className="left-logo">
-                <img src="https://www.carzonrent.com/webcor/images/img/cor_logo.svg?v=2028" alt="Carzonrent Logo" />
+                <img src="" alt="" />
             </div>
-
             <div className="nav-interact">
                 <div className="nav-hrefs-wrapper">
                     <div className="nav-hrefs" style={{ color: '#fc0' }}>
