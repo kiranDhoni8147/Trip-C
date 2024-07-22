@@ -30,7 +30,7 @@ const HeroSection = () => {
             </div>
 
 
-            <FindYourRide />
+            <FindYourRide/>
             
         </div>
     )
