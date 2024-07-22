@@ -37,12 +37,12 @@ const HeroSection = () => {
 
 
             <FindYourRide />
-            <TravelExperience />
+            {/* <TravelExperience />
             <TravelSolutions />
             <OurServices />
             <CompanyStats />
             <SelfDrive />
-            <WhyChooseUs />
+            <WhyChooseUs /> */}
             
 
         </div>
