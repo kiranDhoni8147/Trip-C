@@ -3,8 +3,8 @@ import React from 'react'
 
 const SelfDrive = () => {
     return (
-        <div className='self-drive-section py-[95px] sm:hidden'>
-            <div className="section-header pb-[20px] text-[42px] font-bold text-center sm:pb-[10px] sm:text-[22px]">Myles- Self Drive & Subscription</div>
+        <div className='self-drive-section py-[95px] sm-max:hidden'>
+            <div className="section-header pb-[20px] text-[42px] font-bold text-center sm-max:pb-[10px] sm-max:text-[22px]">Myles- Self Drive & Subscription</div>
             <div className="banner-section relative">
                 <img src="https://www.carzonrent.com/webcor/images/banner/selfdrivebannerimg.png" alt="" />
                 <div className="banner-info-wrapper absolute top-0 h-full w-full flex justify-center items-center">

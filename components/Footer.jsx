@@ -3,15 +3,15 @@ import React from 'react';
 const Footer = () => {
     return (
         <footer className="bg-white text-gray-900">
-            <div className="container mx-auto py-12 sm:px-2 px-8">
-                <div className="flex justify-around sm:grid sm:grid-cols-1 sm:grid-cols-2 sm:grid-cols-3 gap-y-8">
+            <div className="container mx-auto py-12 sm-max:px-2 px-8">
+                <div className="flex justify-around sm-max:grid sm-max:grid-cols-1 sm-max:grid-cols-2 sm-max:grid-cols-3 gap-y-8">
                     {/* Quick Links */}
                     <div className="footer-widget">
                         <div className="widget-title">
-                            <h4 className="text-xl font-bold mb-4 sm:text-[16px]">Quick Links</h4>
+                            <h4 className="text-xl font-bold mb-4 sm-max:text-[16px]">Quick Links</h4>
                         </div>
                         <div className="widget-content">
-                            <ul className="footer-links sm:text-[12px]">
+                            <ul className="footer-links sm-max:text-[12px]">
                                 <li><a href="/" className="text-gray-700 hover:text-yellow-500 transition-colors duration-150">Home</a></li>
                                 <li><a href="/about-us" className="text-gray-700 hover:text-yellow-500 transition-colors duration-150">About Us</a></li>
                                 <li><a href="/faqs" className="text-gray-700 hover:text-yellow-500 transition-colors duration-150">FAQ’s</a></li>
@@ -25,10 +25,10 @@ const Footer = () => {
                     {/* Terms & Policies */}
                     <div className="footer-widget">
                         <div className="widget-title">
-                            <h4 className="text-xl font-bold mb-4 sm:text-[16px]">Terms & Policies</h4>
+                            <h4 className="text-xl font-bold mb-4 sm-max:text-[16px]">Terms & Policies</h4>
                         </div>
                         <div className="widget-content">
-                            <ul className="footer-links sm:text-[12px]">
+                            <ul className="footer-links sm-max:text-[12px]">
                                 <li><a href="/terms-of-use" className="text-gray-700 hover:text-yellow-500 transition-colors duration-150">Term & Conditions</a></li>
                                 <li><a href="/privacy-policy" className="text-gray-700 hover:text-yellow-500 transition-colors duration-150">Privacy policies</a></li>
                             </ul>
@@ -38,10 +38,10 @@ const Footer = () => {
                     {/* Car Rental Cities */}
                     <div className="footer-widget">
                         <div className="widget-title">
-                            <h4 className="text-xl font-bold mb-4 sm:text-[16px]">Car Rental Cities</h4>
+                            <h4 className="text-xl font-bold mb-4 sm-max:text-[16px]">Car Rental Cities</h4>
                         </div>
                         <div className="widget-content">
-                            <ul className="footer-links sm:text-[12px]">
+                            <ul className="footer-links sm-max:text-[12px]">
                                 <li><a href="/car-rental-delhi" className="text-gray-700 hover:text-yellow-500 transition-colors duration-150">Delhi</a></li>
                                 <li><a href="/car-rental-bangalore" className="text-gray-700 hover:text-yellow-500 transition-colors duration-150">Bangalore</a></li>
                                 <li><a href="/car-rental-mumbai" className="text-gray-700 hover:text-yellow-500 transition-colors duration-150">Mumbai</a></li>
@@ -61,21 +61,21 @@ const Footer = () => {
                     {/* Placeholder */}
                     {/* <div className="footer-widget w-auto inline-block">
                         <div className="widget-title">
-                            <h4 className="text-xl font-bold mb-4 sm:text-[16px] text-white">Placeholder</h4>
+                            <h4 className="text-xl font-bold mb-4 sm-max:text-[16px] text-white">Placeholder</h4>
                         </div>
                         <div className="widget-content">
-                            <ul className="footer-links sm:text-[12px]">
+                            <ul className="footer-links sm-max:text-[12px]">
                             </ul>
                         </div>
                     </div> */}
                 </div>
 
                 {/* Footer Bottom */}
-                <div className="flex justify-around border-t border-gray-200 mt-8 pt-8 flex-row sm:flex-col sm:gap-4 items-center justify-between">
-                    <div className="footer-logo mb-4 sm:mb-0">
+                <div className="flex justify-around border-t border-gray-200 mt-8 pt-8 flex-row sm-max:flex-col sm-max:gap-4 items-center justify-between">
+                    <div className="footer-logo mb-4 sm-max:mb-0">
                         <img src="https://www.carzonrent.com/webcor/images/icons/Carzonrent.svg" alt="Carzonrent logo" className="footer-logo-img h-5" />
                     </div>
-                    <div className="social-media mb-4 sm:mb-0">
+                    <div className="social-media mb-4 sm-max:mb-0">
                         <ul className="social-media-links flex gap-4">
                             <li><a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/carzonrent"><img src="https://www.carzonrent.com/webcor/images/icons/facebook_icon.svg" alt="Facebook" /></a></li>
                             <li><a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/carzonrentin/?hl=hi"><img src="https://www.carzonrent.com/webcor/images/icons/instagram.svg" alt="Instagram" /></a></li>
