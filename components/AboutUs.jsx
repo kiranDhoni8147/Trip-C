@@ -33,7 +33,7 @@ const AboutUs = () => {
         }}
       >
         <h1 className="text-red-500 text-4xl md:text-5xl font-semibold absolute top-1/2 left-6 md:left-32 transform -translate-y-1/2 mb-6 md:mb-12">
-          Where Style <br /> Meets Comfort
+        Where Elegance <br /> Meets Excellence
         </h1>
       </div>
 
