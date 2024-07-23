@@ -23,11 +23,11 @@ const TravelExperience = () => {
       </p>
       <div className="travel-experience-offerings w-screen mt-[40px] flex justify-center items-center gap-[35px] sm-max:flex-col sm-max:p-[10px] sm-max:gap-[10px]">
         <div className="travel-experience-offerings-left h-[560px] w-[500px] sm-max:w-[100%] sm-max:h-fit">
-          <img src="https://www.carzonrent.com/webcor/images/banner/travel_experience_single.webp" className='offering-img left transform scale-0 opacity-0 transition-all duration-200 ease sm-max:h-auto sm-max:w-[100%]' alt="" />
+          <img src="https://img.freepik.com/premium-photo/attractive-business-woman-working-her-laptop-back-sit-car-way-meeting-side-view-beautiful-confident-woman-coat-working-laptop-while-sitting-car_168991-823.jpg?uid=P77132068&ga=GA1.1.1678051510.1721624355&semt=ais_user-customized" className='offering-img left transform scale-0 opacity-0 transition-all duration-200 ease sm-max:h-auto sm-max:w-[100%]' alt="" />
         </div>
         <div className="travel-experience-offerings-right flex flex-col justify-between w-fit gap-[30px] sm-max:gap-[10px]">
-          <img src="https://www.carzonrent.com/webcor/images/banner/no-waitingcancelattion.webp" className='offering-img right transform scale-0 opacity-0 transition-all duration-200 ease h-[260px] w-[465px] sm-max:h-auto sm-max:w-[100%]' alt="" />
-          <img src="https://www.carzonrent.com/webcor/images/banner/nosurgepricingbnr.webp" className='offering-img right transform scale-0 opacity-0 transition-all duration-200 ease h-[260px] w-[465px] sm-max:h-auto sm-max:w-[100%]' alt="" />
+          <img src="https://img.freepik.com/free-photo/close-up-clock-with-time-change_23-2149241173.jpg?uid=P77132068&ga=GA1.1.1678051510.1721624355&semt=ais_user-customized" className='offering-img right transform scale-0 opacity-0 transition-all duration-200 ease h-[260px] w-[465px] sm-max:h-auto sm-max:w-[100%]' alt="" />
+          <img src="https://img.freepik.com/premium-photo/businessman-hand-price-down-cost-reduction-concept-cost-down-puppet-master-hand-controlling-stock-market_106035-2803.jpg?uid=P77132068&ga=GA1.1.1678051510.1721624355" className='offering-img right transform scale-0 opacity-0 transition-all duration-200 ease h-[260px] w-[465px] sm-max:h-auto sm-max:w-[100%]' alt="" />
         </div>
       </div>
     </div>

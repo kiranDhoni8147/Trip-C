@@ -13,7 +13,7 @@ const OurServices = () => {
                 </div>
                 <div className="category-card-wrapper flex justify-evenly sm-max:flex-wrap sm-max:gap-[30px]">
                     <div className="category-card w-[360px] h-fit sm-max:w-full">
-                        <img className='h-[160px] w-[360px] mb-[25px] sm-max:mb-[2px] sm-max:w-full sm-max:h-auto' src="https://www.carzonrent.com/webcor/images/banner/etsservices.png" alt="" />
+                        <img className='h-[160px] w-[360px] mb-[25px] sm-max:mb-[2px] sm-max:w-full sm-max:h-auto' src="https://img.freepik.com/premium-photo/attractive-business-woman-working-her-laptop-back-sit-car-way-meeting-side-view-beautiful-confident-woman-coat-working-laptop-while-sitting-car_168991-823.jpg?uid=P77132068&ga=GA1.1.1678051510.1721624355&semt=ais_user-customized" alt="" />
                         <div className="category-card-info">
                             <div className="category-card-header text-[20px] font-[700]">Employee Transportation</div>
                             <div className="category-card-body text-[14px] font-[600] text-[#797979]">
@@ -24,7 +24,7 @@ const OurServices = () => {
                     </div>
                     
                     <div className="category-card w-[360px] h-fit sm-max:w-full">
-                        <img className='h-[160px] w-[360px] mb-[25px] sm-max:mb-[2px] sm-max:w-full sm-max:h-auto' src="https://www.carzonrent.com/webcor/images/banner/pluevvehicle.png" alt="" />
+                        <img className='h-[160px] w-[360px] mb-[25px] sm-max:mb-[2px] sm-max:w-full sm-max:h-auto' src="https://img.freepik.com/premium-photo/electric-car-ev-charging-battery-charger-station_31965-127533.jpg?uid=P77132068&ga=GA1.1.1678051510.1721624355&semt=ais_user-customized" alt="" />
                         <div className="category-card-info">
                             <div className="category-card-header text-[20px] font-[700]">Plug-EV</div>
                             <div className="category-card-body text-[14px] font-[600] text-[#797979]">
@@ -35,7 +35,7 @@ const OurServices = () => {
                     </div>
                     
                     <div className="category-card w-[360px] h-fit sm-max:w-full">
-                        <img className='h-[160px] w-[360px] mb-[25px] sm-max:mb-[2px] sm-max:w-full sm-max:h-auto' src="https://www.carzonrent.com/webcor/images/banner/eventsservice.png" alt="" />
+                        <img className='h-[160px] w-[360px] mb-[25px] sm-max:mb-[2px] sm-max:w-full sm-max:h-auto' src="https://img.freepik.com/free-photo/people-taking-part-high-protocol-event_23-2150951409.jpg?uid=P77132068&ga=GA1.1.1678051510.1721624355&semt=sph" alt="" />
                         <div className="category-card-info">
                             <div className="category-card-header text-[20px] font-[700]">Events</div>
                             <div className="category-card-body text-[14px] font-[600] text-[#797979]">

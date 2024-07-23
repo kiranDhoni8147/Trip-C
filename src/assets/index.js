@@ -25,13 +25,13 @@ export { default as airporttransfer } from '../assets/CardImages/airporttransfer
 
 
 //Background Images For Components
-export { default as corporatebanner } from '../assets/BackgroundImages/corporatebanner.png';
-export { default as airlinetravelsbanner } from '../assets/BackgroundImages/airlinetravelsbanner.webp';
-export { default as psubanner } from '../assets/BackgroundImages/psubanner.webp';
-export { default as hospitalbanner } from '../assets/BackgroundImages/hospitalbanner.webp';
-export {default as contactbanner}  from '../assets/BackgroundImages/contactbanner.png';
-export { default as smetravels } from '../assets/BackgroundImages/smetravels_banner.webp';
-export {default as aboutusbanner} from '../assets/BackgroundImages/aboutusbanner.png';
+export { default as corporatebanner } from '../assets/BackgroundImages/corporatebanner.jpg';
+export { default as airlinetravelsbanner } from '../assets/BackgroundImages/airlinetravelsbanner.jpg';
+export { default as psubanner } from '../assets/BackgroundImages/psubanner.jpg';
+export { default as hospitalbanner } from '../assets/BackgroundImages/hospitalbanner.jpg';
+export {default as contactbanner}  from '../assets/BackgroundImages/contactbanner.jpg';
+export { default as smetravels } from '../assets/BackgroundImages/smetravels_banner.jpg';
+export {default as aboutusbanner} from '../assets/BackgroundImages/aboutusbanner.jpeg';
 
 
 //Social Media Images
