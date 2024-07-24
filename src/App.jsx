@@ -6,24 +6,26 @@ import CorporateTravels from '../components/CorporateTravels';
 import SMETravels from '../components/SMETravels';
 import AviationTravelSolutions from '../components/AviationTravelSolutions';
 import GovPSUTravel from '../components/Gov&PSUTravel';
-import HospitalityTravel from '../components/HospitalityTravel';
 import AboutUs from '../components/AboutUs';
 import ContactForm from '../components/ContactUs';
 import Faq from '../components/Faq';
 import Footer from '../components/Footer';
 import './App.css';
+import HospitalityTravel from '../components/HospitalityTravel';
+import ScrollToTop from '../components/ScrollToTop';
 
 function App() {
     return (
         <BrowserRouter>
             <Navbar />
+            <ScrollToTop/>
             <Routes>
                 <Route path='/' element={<HeroSection />} />
                 <Route path='/corporatetravels' element={<CorporateTravels />} />
                 <Route path='/smetravels' element={<SMETravels />} />
                 <Route path='/aviationtravelsolutions' element={<AviationTravelSolutions />} />
                 <Route path='/govpsutravel' element={<GovPSUTravel />} />
-                <Route path='/hospitalitytravel' element={<HospitalityTravel />} />
+                <Route path='/hospitalitytravel' element={<HospitalityTravel/>} />
                 <Route path='/aboutus' element={<AboutUs />} />
                 <Route path='/contactus' element={<ContactForm />} />
             </Routes>

@@ -1,10 +1,10 @@
 //Key Features Section
-export { default as helpline } from './Key Features/247helpline.svg';
+export { default as helpline } from './Key Features/247helpline.jpg';
 export { default as cor_app_yellow } from './Key Features/cor_app_yellow.svg';
-export { default as flexiblepaymentoption } from './Key Features/flexiblepaymentoption.svg';
-export { default as nosurgepricing_yellow } from './Key Features/nosurgepricing_yellow.svg';
-export { default as transparentbilling } from './Key Features/transparentbilling.svg';
-export { default as automatedbookingtools } from './Key Features/aoutomatedbookingtools.svg';
+export { default as flexiblepaymentoption } from './Key Features/flexiblepaymentoption.jpg';
+export { default as nosurgepricing_yellow } from './Key Features/nosurgepricing_yellow.jpg';
+export { default as transparentbilling } from './Key Features/transparentbilling.jpg';
+export { default as automatedbookingtools } from './Key Features/automatedbookingtools.jpg';
 export { default as meetandgreek } from './Key Features/meetandgreek.svg';
 export { default as luxaryfleet } from './Key Features/luxaryfleet.svg';
 export { default as experiencechauffer } from './Key Features/experiencechauffer.svg';
@@ -25,13 +25,13 @@ export { default as airporttransfer } from '../assets/CardImages/airporttransfer
 
 
 //Background Images For Components
-export { default as corporatebanner } from '../assets/BackgroundImages/corporatebanner.png';
-export { default as airlinetravelsbanner } from '../assets/BackgroundImages/airlinetravelsbanner.webp';
-export { default as psubanner } from '../assets/BackgroundImages/psubanner.webp';
-export { default as hospitalbanner } from '../assets/BackgroundImages/hospitalbanner.webp';
-export {default as contactbanner}  from '../assets/BackgroundImages/contactbanner.png';
-export { default as smetravels } from '../assets/BackgroundImages/smetravels_banner.webp';
-export {default as aboutusbanner} from '../assets/BackgroundImages/aboutusbanner.png';
+export { default as corporatebanner } from '../assets/BackgroundImages/corporatebanner.jpg';
+export { default as airlinetravelsbanner } from '../assets/BackgroundImages/airlinetravelsbanner.jpg';
+export { default as psubanner } from '../assets/BackgroundImages/psubanner.jpg';
+export { default as hospitalbanner } from '../assets/BackgroundImages/hospitalbanner.jpg';
+export {default as contactbanner}  from '../assets/BackgroundImages/contactbanner.jpg';
+export { default as smetravels } from '../assets/BackgroundImages/smetravels_banner.jpg';
+export {default as aboutusbanner} from '../assets/BackgroundImages/aboutusbanner.jpeg';
 
 
 //Social Media Images

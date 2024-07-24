@@ -32,8 +32,8 @@ const AboutUs = () => {
           minHeight: '500px',  // Ensure minimum height for the background container
         }}
       >
-        <h1 className="text-white text-4xl md:text-5xl font-semibold absolute top-1/2 left-6 md:left-32 transform -translate-y-1/2 mb-6 md:mb-12">
-          Where Style <br /> Meets Comfort
+        <h1 className="text-red-500 text-4xl md:text-5xl font-semibold absolute top-1/2 left-6 md:left-32 transform -translate-y-1/2 mb-6 md:mb-12">
+        Where Elegance <br /> Meets Excellence
         </h1>
       </div>
 
@@ -100,7 +100,7 @@ const AboutUs = () => {
       </div>
 
 
-      <div className="bg-black text-white py-8 md:py-16" style={{
+      <div className="bg-black text-red-500 py-8 md:py-16" style={{
         backgroundImage: `url(${carbackground2})`,
         backgroundSize: 'cover',
         backgroundPosition: 'center',
