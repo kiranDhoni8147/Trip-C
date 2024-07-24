@@ -12,11 +12,13 @@ import Faq from '../components/Faq';
 import Footer from '../components/Footer';
 import './App.css';
 import HospitalityTravel from '../components/HospitalityTravel';
+import ScrollToTop from '../components/ScrollToTop';
 
 function App() {
     return (
         <BrowserRouter>
             <Navbar />
+            <ScrollToTop/>
             <Routes>
                 <Route path='/' element={<HeroSection />} />
                 <Route path='/corporatetravels' element={<CorporateTravels />} />
