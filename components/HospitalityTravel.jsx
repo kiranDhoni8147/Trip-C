@@ -22,7 +22,7 @@ let HospitalityTravel = () => {
         backgroundRepeat: 'no-repeat'
       }}>
 
-        <main className="flex flex-col items-start justify-center font-serif font-bold italic text-lg text-orange-500 text-left py-10 px-5 sm:py-20 sm:px-10">
+        <main className="flex flex-col items-start justify-center font-serif font-bold italic text-lg text-teal-700 text-left py-10 px-5 sm:py-20 sm:px-10">
           <div className="max-w-4xl mt-10 sm:mt-24 sm:ml-20" data-aos="fade-down" data-aos-delay="400">
             <h1 className="text-3xl sm:text-5xl font-bold mb-4">Premium Hospitality Travel Solutions with TRIP-C</h1>
 

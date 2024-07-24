@@ -47,10 +47,6 @@ const AviationTravelSolutions = () => {
 
 
       {/* {Why Choose Tripc Section} */}
-
-
-
-
       <div className="px-5 sm:px-10 py-10 sm:py-16 bg-gray-100">
         <div className="mx-auto max-w-2xl sm:max-w-7xl">
           <h2 className="text-2xl sm:text-4xl text-center font-bold tracking-tight text-gray-700 mb-4">Why Choose TRIP-C for Aviation Travel Solutions?</h2>

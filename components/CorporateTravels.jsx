@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import {
-  helpline, flexiblepaymentoption,nosurgepricing_yellow, corporatebanner, transparentbilling, automatedbookingtools
+  helpline, flexiblepaymentoption, nosurgepricing_yellow, corporatebanner, transparentbilling, automatedbookingtools, aboutuscarvideo
 } from '../src/assets';
 
 let CorporateTravels = () => {
@@ -12,10 +12,17 @@ let CorporateTravels = () => {
 
   return (
     <div>
-      <div className="w-full min-h-screen" style={{
-        backgroundImage: `url(${corporatebanner})`, backgroundSize: 'cover', backgroundPosition: 'center',
-        backgroundRepeat: 'no-repeat'
-      }}>
+      <div className="relative w-full min-h-screen">
+        <video
+          className="absolute inset-0 w-full h-full object-cover"
+          src={aboutuscarvideo}
+          type="video/mp4"
+          autoPlay
+          loop
+          muted
+        >
+          Your browser does not support the video tag.
+        </video>
 
         <main className="flex flex-col items-start justify-center font-serif font-bold italic text-lg text-white text-left py-10 px-5 sm:py-20 sm:px-10">
           <div className="max-w-4xl mt-10 sm:mt-24 sm:ml-20" data-aos="fade-down" data-aos-delay="400">
@@ -24,7 +31,7 @@ let CorporateTravels = () => {
             <hr className="border-yellow-400 border-solid border-t-4 w-40 mb-6 sm:mb-10" data-aos="fade-down" data-aos-delay="400" />
 
             <p className="text-lg sm:text-xl mb-6 sm:mb-12 mt-2 sm:mt-4 font-bold">Experience the pinnacle of luxury and efficiency with our bespoke aviation services,
-               tailored to meet the unique needs of discerning corporate travelers..</p>
+              tailored to meet the unique needs of discerning corporate travelers..</p>
           </div>
         </main>
 
@@ -48,27 +55,29 @@ let CorporateTravels = () => {
       {/* {Why Choose Tripc Section} */}
       <div className="px-5 sm:px-10 py-10 sm:py-16 bg-gray-100">
         <div className="mx-auto max-w-2xl sm:max-w-7xl">
-          <h2 className="text-2xl sm:text-4xl text-center font-bold tracking-tight text-gray-700 mb-4">Why Choose TRIP-C for Aviation Travel Solutions?</h2>
+          <h2 className="text-2xl sm:text-4xl text-center font-bold tracking-tight text-gray-700 mb-4">
+            Why Choose TRIP-C for Corporate Travel Solutions?
+          </h2>
           <div className="mt-6 space-y-6 text-lg text-gray-700">
             <div data-aos="fade-up" data-aos-delay="100">
-              <h3 className="text-xl font-semibold">Private Jet Charter</h3>
-              <p>Experience unparalleled comfort and convenience with our private jet charter services, tailored to meet your specific travel needs.</p>
+              <h3 className="text-xl font-semibold">Corporate Travel Management</h3>
+              <p>Our dedicated team ensures seamless travel management, handling all aspects of your corporate trips efficiently.</p>
             </div>
             <div data-aos="fade-up" data-aos-delay="200">
-              <h3 className="text-xl font-semibold">Corporate Jet Management</h3>
-              <p>We offer comprehensive jet management solutions, ensuring your aircraft is always ready for your business travels.</p>
+              <h3 className="text-xl font-semibold">Expense Management</h3>
+              <p>We offer robust expense management solutions to keep your travel costs under control and provide detailed reporting.</p>
             </div>
             <div data-aos="fade-up" data-aos-delay="300">
-              <h3 className="text-xl font-semibold">Flexible Flight Schedules</h3>
-              <p>Our services provide flexible flight schedules, allowing you to plan your travel itinerary with ease and precision.</p>
+              <h3 className="text-xl font-semibold">Priority Booking</h3>
+              <p>Benefit from priority booking services that ensure you get the best travel arrangements and accommodations for your business needs.</p>
             </div>
             <div data-aos="fade-up" data-aos-delay="400">
-              <h3 className="text-xl font-semibold">Luxury In-Flight Experience</h3>
-              <p>Enjoy a luxury in-flight experience with our premium services, including gourmet meals, entertainment, and personalized service.</p>
+              <h3 className="text-xl font-semibold">24/7 Support</h3>
+              <p>Our team is available around the clock to assist with any travel-related inquiries or issues, providing reliable support whenever you need it.</p>
             </div>
             <div data-aos="fade-up" data-aos-delay="500">
-              <h3 className="text-xl font-semibold">Real-Time Flight Tracking</h3>
-              <p>Stay informed with real-time flight tracking, ensuring you are always aware of your aircraft's status and location.</p>
+              <h3 className="text-xl font-semibold">Custom Itineraries</h3>
+              <p>We create tailored itineraries that align with your company's objectives and travel preferences, ensuring a smooth and productive trip.</p>
             </div>
           </div>
         </div>
