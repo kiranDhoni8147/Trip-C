@@ -7,12 +7,12 @@ import SMETravels from '../components/SMETravels';
 import AviationTravelSolutions from '../components/AviationTravelSolutions';
 import GovPSUTravel from '../components/Gov&PSUTravel';
 import AboutUs from '../components/AboutUs';
-import ContactForm from '../components/ContactUs';
 import Faq from '../components/Faq';
 import Footer from '../components/Footer';
 import './App.css';
 import HospitalityTravel from '../components/HospitalityTravel';
 import ScrollToTop from '../components/ScrollToTop';
+import ContactUs from '../components/ContactUs';
 
 function App() {
     return (
@@ -27,7 +27,7 @@ function App() {
                 <Route path='/govpsutravel' element={<GovPSUTravel />} />
                 <Route path='/hospitalitytravel' element={<HospitalityTravel/>} />
                 <Route path='/aboutus' element={<AboutUs />} />
-                <Route path='/contactus' element={<ContactForm />} />
+                <Route path='/contactus' element={<ContactUs />} />
             </Routes>
 
             {/* About Us */}
