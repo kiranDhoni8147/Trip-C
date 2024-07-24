@@ -31,7 +31,7 @@ export { default as psubanner } from '../assets/BackgroundImages/psubanner.jpg';
 export { default as hospitalbanner } from '../assets/BackgroundImages/hospitalbanner.jpg';
 export {default as contactbanner}  from '../assets/BackgroundImages/contactbanner.jpg';
 export { default as smetravels } from '../assets/BackgroundImages/smetravels_banner.jpg';
-export {default as aboutusbanner} from '../assets/BackgroundImages/aboutusbanner.jpeg';
+export {default as aboutusbanner} from '../assets/BackgroundImages/aboutusbanner.jpg';
 
 
 //Social Media Images
@@ -50,4 +50,5 @@ export {default as medal} from '../assets/SocialMedia/medal.jpg'
 //Other Exports
 export {default as carbackground} from '../assets/Other/carbackground.jpg';
 export {default as carbackground2} from '../assets/Other/carbackground2.jpg';
+export {default as aboutuscarvideo} from '../assets/Other/aboutuscarvideo.mp4'
 
