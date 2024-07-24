@@ -19,7 +19,7 @@ const ContactUs = () => {
         <h1 className={headingClasses} style={{ color: 'white' }}>
           Contact Us <br />{' '}
           <span className="text-xl font-semibold text-gray-200">
-            Any questions or remarks? Call us at +91 97437 73535
+            Need Assistance? Contact Us at +91 97437 73535
           </span>
         </h1>
       </div>
