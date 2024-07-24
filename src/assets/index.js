@@ -1,10 +1,10 @@
 //Key Features Section
-export { default as helpline } from './Key Features/247helpline.svg';
+export { default as helpline } from './Key Features/247helpline.jpg';
 export { default as cor_app_yellow } from './Key Features/cor_app_yellow.svg';
-export { default as flexiblepaymentoption } from './Key Features/flexiblepaymentoption.svg';
-export { default as nosurgepricing_yellow } from './Key Features/nosurgepricing_yellow.svg';
-export { default as transparentbilling } from './Key Features/transparentbilling.svg';
-export { default as automatedbookingtools } from './Key Features/aoutomatedbookingtools.svg';
+export { default as flexiblepaymentoption } from './Key Features/flexiblepaymentoption.jpg';
+export { default as nosurgepricing_yellow } from './Key Features/nosurgepricing_yellow.jpg';
+export { default as transparentbilling } from './Key Features/transparentbilling.jpg';
+export { default as automatedbookingtools } from './Key Features/automatedbookingtools.jpg';
 export { default as meetandgreek } from './Key Features/meetandgreek.svg';
 export { default as luxaryfleet } from './Key Features/luxaryfleet.svg';
 export { default as experiencechauffer } from './Key Features/experiencechauffer.svg';

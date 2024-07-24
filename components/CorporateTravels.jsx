@@ -1,229 +1,114 @@
 import React, { useEffect } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import { helpline,flexiblepaymentoption,nosurgepricing_yellow,transparentbilling,automatedbookingtools,
-  longtermsrental,plugevcabs,outstrationtravels,corporateevents,campusfleet,corporatebanner
-  ,airporttransfer,ets,dailycommute,
-  delegatetransfer } from '../src/assets';
+import {
+  helpline, flexiblepaymentoption,nosurgepricing_yellow, corporatebanner, transparentbilling, automatedbookingtools
+} from '../src/assets';
 
-let CorporateTravels=()=>{
+let CorporateTravels = () => {
   useEffect(() => {
-    AOS.init({ duration: 2500 });
+    AOS.init({ duration: 2000 });
   }, []);
 
   return (
     <div>
-    <div className="w-full min-h-screen" style={{ backgroundImage: `url(${corporatebanner})`, backgroundSize: 'cover',backgroundPosition: 'center',
-                    backgroundRepeat: 'no-repeat' }}>
+      <div className="w-full min-h-screen" style={{
+        backgroundImage: `url(${corporatebanner})`, backgroundSize: 'cover', backgroundPosition: 'center',
+        backgroundRepeat: 'no-repeat'
+      }}>
 
-      <main className="flex flex-col items-start justify-center text-white text-left py-10 px-5 sm:py-20 sm:px-10">
-        <div className="max-w-4xl mt-10 sm:mt-24 sm:ml-20" data-aos="fade-down" data-aos-delay="400">
-          <h1 className="text-3xl sm:text-5xl font-bold mb-4">Grow Your Business <br /> With TRIP-C</h1>
-          <p className="text-lg sm:text-xl mb-6 sm:mb-12 mt-2 sm:mt-4 font-bold">We Take You Places Since 2000.</p>
-        </div>
-      </main>
+        <main className="flex flex-col items-start justify-center font-serif font-bold italic text-lg text-white text-left py-10 px-5 sm:py-20 sm:px-10">
+          <div className="max-w-4xl mt-10 sm:mt-24 sm:ml-20" data-aos="fade-down" data-aos-delay="400">
+            <h1 className="text-3xl sm:text-5xl font-bold mb-4">Elevate Your Travel Experience with TRIP-C</h1>
 
-      <div className='sm:ml-10'>
-        <hr className="border-yellow-400 border-solid border-t-4 ml-5 sm:ml-20 w-24 mb-6 sm:mb-10" data-aos="fade-down" data-aos-delay="400"/>
+            <hr className="border-yellow-400 border-solid border-t-4 w-40 mb-6 sm:mb-10" data-aos="fade-down" data-aos-delay="400" />
 
-        <div className="flex flex-col sm:flex-row justify-between items-center mb-10 sm:mb-20 mt-12 sm:mt-24 ml-5 sm:ml-20">
-
-          {/* Statistics Section */}
-          <div className="flex flex-col mb-6 sm:mb-0 mr-0 sm:mr-7 text-white" data-aos="fade-up">
-            <p className="text-2xl sm:text-3xl font-bold">600+</p>
-            <p className="text-lg sm:text-xl font-semibold">Corporates Served</p>
+            <p className="text-lg sm:text-xl mb-6 sm:mb-12 mt-2 sm:mt-4 font-bold">Experience the pinnacle of luxury and efficiency with our bespoke aviation services,
+               tailored to meet the unique needs of discerning corporate travelers..</p>
           </div>
+        </main>
 
-          <div className="flex flex-col mb-6 sm:mb-0 mr-0 sm:mr-7 text-white" data-aos="fade-up" data-aos-delay="400">
-            <p className="text-2xl sm:text-3xl font-bold">10 Mn+</p>
-            <p className="text-lg sm:text-xl font-semibold">Happy Customers</p>
-          </div>
+        <div className='sm:ml-10'>
 
-          <div className="flex flex-col mb-6 sm:mb-0 mr-0 sm:mr-7 text-white" data-aos="fade-up" data-aos-delay="400">
-            <p className="text-2xl sm:text-3xl font-semibold">79+</p>
-            <p className="text-lg sm:text-xl">Cities Served</p>
-          </div>
 
-          {/* Button Section */}
-          <div className="text-end mr-10 sm:ml-0" data-aos="fade-left" data-aos-delay="400">
-            <button className="bg-yellow-400 text-black px-4 py-2 sm:px-6 sm:py-3 rounded-lg text-lg sm:text-xl">
-              Get In Touch
-            </button>
+          <div className="flex flex-col sm:flex-row justify-between items-center mb-10 sm:mb-20  ml-5 sm:ml-20">
+
+
+            {/* Button Section */}
+            <div className="text-end mr-10 sm:ml-0" data-aos="fade-left" data-aos-delay="400">
+              <button className="hover:bg-orange-400 bg-orange-500 text-slate-100 hover:text-slate-200 px-4 py-2 sm:px-6 sm:py-3 rounded-lg text-lg sm:text-xl">
+                Get In Touch
+              </button>
+            </div>
           </div>
         </div>
       </div>
-      </div>
 
 
-      <div className=" px-5 sm:px-10 py-10 sm:py-16 bg-slate-100">
+      {/* {Why Choose Tripc Section} */}
+      <div className="px-5 sm:px-10 py-10 sm:py-16 bg-gray-100">
         <div className="mx-auto max-w-2xl sm:max-w-7xl">
-          <h2 className="text-2xl sm:text-4xl text-center font-bold tracking-tight text-gray-700 mb-4">Smart Solutions For Hassle-Free Cab Rentals</h2>
-          <h3 className="text-lg sm:text-xl text-center tracking-tight text-gray-950 mb-10">Streamline Your Corporate Travel</h3>
-
-          {/* 1st Row */}
-          <div className="mt-6 h grid grid-cols-1 gap-x-6 gap-y-10 sm:gap-x-16 sm:gap-y-28 sm:grid-cols-3 lg:grid-cols-3 xl:gap-x-14">
-
-            {/* Image1 */}
-            <div className="group relative" data-aos="zoom-in">
-              <div className="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-md bg-gray-200 lg:aspect-none group-hover:opacity-75 lg:h-80">
-                <img src={dailycommute} alt="Daily Commute" className="h-full w-full object-cover object-center lg:h-full lg:w-full" />
-              </div>
-              <div className="mt-4 flex flex-col justify-between">
-                <h3 className="text-xl sm:text-2xl text-center text-black font-semibold">
-                  <a href="#">
-                    <span aria-hidden="true" className="absolute inset-0"></span>
-                    Daily Commute
-                  </a>
-                </h3>
-                <p className="mt-1 text-sm sm:text-base text-gray-500 text-center">Experience hassle-free daily commutes with our reliable and convenient cab rental services.<a href="#" className='text-yellow-400'> Learn More</a></p>
-              </div>
+          <h2 className="text-2xl sm:text-4xl text-center font-bold tracking-tight text-gray-700 mb-4">Why Choose TRIP-C for Aviation Travel Solutions?</h2>
+          <div className="mt-6 space-y-6 text-lg text-gray-700">
+            <div data-aos="fade-up" data-aos-delay="100">
+              <h3 className="text-xl font-semibold">Private Jet Charter</h3>
+              <p>Experience unparalleled comfort and convenience with our private jet charter services, tailored to meet your specific travel needs.</p>
             </div>
-
-            {/* Image2 */}
-            <div className="group relative" data-aos="zoom-in">
-              <div className="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-md bg-gray-200 lg:aspect-none group-hover:opacity-75 lg:h-80">
-                <img src={ets} alt="ETS" className="h-full w-full object-cover object-center lg:h-full lg:w-full" />
-              </div>
-              <div className="mt-4 flex flex-col justify-between">
-                <h3 className="text-xl sm:text-2xl text-center text-black font-semibold">
-                  <a href="#">
-                    <span aria-hidden="true" className="absolute inset-0"></span>
-                    ETS
-                  </a>
-                </h3>
-                <p className="mt-1 text-sm sm:text-base text-gray-500 text-center">Premium cab rental services tailored for seamless mobility solutions for your Employees.<a href="#" className='text-yellow-400'> Learn More</a></p>
-              </div>
+            <div data-aos="fade-up" data-aos-delay="200">
+              <h3 className="text-xl font-semibold">Corporate Jet Management</h3>
+              <p>We offer comprehensive jet management solutions, ensuring your aircraft is always ready for your business travels.</p>
             </div>
-
-            {/* Image3 */}
-            <div className="group relative" data-aos="zoom-in">
-              <div className="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-md bg-gray-200 lg:aspect-none group-hover:opacity-75 lg:h-80">
-                <img src={airporttransfer} alt="Airport Transfers" className="h-full w-full object-cover object-center lg:h-full lg:w-full" />
-              </div>
-              <div className="mt-4 flex flex-col justify-between">
-                <h3 className="text-xl sm:text-2xl text-center text-black font-semibold">
-                  <a href="#">
-                    <span aria-hidden="true" className="absolute inset-0"></span>
-                    Airport Transfers
-                  </a>
-                </h3>
-                <p className="mt-1 text-sm sm:text-base text-gray-500 text-center">Reliable and hassle-free cab rental services, ensuring smooth journeys to and from the airport.<a href="#" className='text-yellow-400'> Learn More</a></p>
-              </div>
+            <div data-aos="fade-up" data-aos-delay="300">
+              <h3 className="text-xl font-semibold">Flexible Flight Schedules</h3>
+              <p>Our services provide flexible flight schedules, allowing you to plan your travel itinerary with ease and precision.</p>
             </div>
-
-          </div>
-
-          {/* 2nd Row */}
-          <div className="mt-6 grid grid-cols-1 gap-x-6 gap-y-10 sm:gap-x-16 sm:gap-y-28 sm:grid-cols-3 lg:grid-cols-3 xl:gap-x-14">
-
-            {/* Image1 */}
-            <div className="group relative" data-aos="zoom-in">
-              <div className="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-md bg-gray-200 lg:aspect-none group-hover:opacity-75 lg:h-80">
-                <img src={delegatetransfer} alt="Daily Commute" className="h-full w-full object-cover object-center lg:h-full lg:w-full" />
-              </div>
-              <div className="mt-4 flex flex-col justify-between">
-                <h3 className="text-xl sm:text-2xl text-center text-black font-semibold">
-                  <a href="#">
-                    <span aria-hidden="true" className="absolute inset-0"></span>
-                    Delegate Transfer
-                  </a>
-                </h3>
-                <p className="mt-1 text-sm sm:text-base text-gray-500 text-center">Travel stress-free with Carzonrent's chauffeur cab service for smooth delegate transfers.<a href="#" className='text-yellow-400'> Learn More</a></p>
-              </div>
+            <div data-aos="fade-up" data-aos-delay="400">
+              <h3 className="text-xl font-semibold">Luxury In-Flight Experience</h3>
+              <p>Enjoy a luxury in-flight experience with our premium services, including gourmet meals, entertainment, and personalized service.</p>
             </div>
-
-            {/* Image2 */}
-            <div className="group relative" data-aos="zoom-in">
-              <div className="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-md bg-gray-200 lg:aspect-none group-hover:opacity-75 lg:h-80">
-                <img src={plugevcabs} alt="ETS" className="h-full w-full object-cover object-center lg:h-full lg:w-full" />
-              </div>
-              <div className="mt-4 flex flex-col justify-between">
-                <h3 className="text-xl sm:text-2xl text-center text-black font-semibold">
-                  <a href="#">
-                    <span aria-hidden="true" className="absolute inset-0"></span>
-                    Plug- EV Cabs
-                  </a>
-                </h3>
-                <p className="mt-1 text-sm sm:text-base text-gray-500 text-center">Experience noise-free travel with Plug and make a positive impact on the environment. <a href="#" className='text-yellow-400'> Learn More</a></p>
-              </div>
-            </div>
-
-            {/* Image3 */}
-            <div className="group relative" data-aos="zoom-in">
-              <div className="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-md bg-gray-200 lg:aspect-none group-hover:opacity-75 lg:h-80">
-                <img src={outstrationtravels} alt="Airport Transfers" className="h-full w-full object-cover object-center lg:h-full lg:w-full" />
-              </div>
-              <div className="mt-4 flex flex-col justify-between">
-                <h3 className="text-xl sm:text-2xl text-center text-black font-semibold">
-                  <a href="#">
-                    <span aria-hidden="true" className="absolute inset-0"></span>
-                    Outstation Travel
-                  </a>
-                </h3>
-                <p className="mt-1 text-sm sm:text-base text-gray-500 text-center">Simplify your meetings commute with Carzonrent’s  premium cabs, and reliable chauffeurs.<a href="#" className='text-yellow-400'> Learn More</a></p>
-              </div>
-            </div>
-
-          </div>
-
-
-          {/* 3rd Row */}
-          <div className="mt-6 grid grid-cols gap-x-6 gap-y-10 sm:gap-x-16 sm:gap-y-28 sm:grid-cols-3 lg:grid-cols-3 xl:gap-x-14">
-
-            {/* Image1 */}
-            <div className="group relative" data-aos="zoom-in">
-              <div className="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-md bg-gray-200 lg:aspect-none group-hover:opacity-75 lg:h-80">
-                <img src={corporateevents} alt="Daily Commute" className="h-full w-full object-cover object-center lg:h-full lg:w-full" />
-              </div>
-              <div className="mt-4 flex flex-col justify-between">
-                <h3 className="text-xl sm:text-2xl text-center text-black font-semibold">
-                  <a href="#">
-                    <span aria-hidden="true" className="absolute inset-0"></span>
-                    Corporate Events
-                  </a>
-                </h3>
-                <p className="mt-1 text-sm sm:text-base text-gray-500 text-center">Elevate corporate events with our premium cab services for unmatched professionalism. <a href="#" className='text-yellow-400'> Learn More</a></p>
-              </div>
-            </div>
-
-            {/* Image2 */}
-            <div className="group relative" data-aos="zoom-in">
-              <div className="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-md bg-gray-200 lg:aspect-none group-hover:opacity-75 lg:h-80">
-                <img src={campusfleet} alt="ETS" className="h-full w-full object-cover object-center lg:h-full lg:w-full" />
-              </div>
-              <div className="mt-4 flex flex-col justify-between">
-                <h3 className="text-xl sm:text-2xl text-center text-black font-semibold">
-                  <a href="#">
-                    <span aria-hidden="true" className="absolute inset-0"></span>
-                    Campus Fleet
-                  </a>
-                </h3>
-                <p className="mt-1 text-sm sm:text-base text-gray-500 text-center">Experience our tailored transportation service for seamless travel across large campuses. <a href="#" className='text-yellow-400'> Learn More</a></p>
-              </div>
-            </div>
-
-            {/* Image3 */}
-            <div className="group relative" data-aos="zoom-in">
-              <div className="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-md bg-gray-200 lg:aspect-none group-hover:opacity-75 lg:h-80">
-                <img src={longtermsrental} alt="Airport Transfers" className="h-full w-full object-cover object-center lg:h-full lg:w-full" />
-              </div>
-              <div className="mt-4 flex flex-col justify-between">
-                <h3 className="text-xl sm:text-2xl text-center text-black font-semibold">
-                  <a href="#">
-                    <span aria-hidden="true" className="absolute inset-0"></span>
-                    Long Term Rentals
-                  </a>
-                </h3>
-                <p className="mt-1 text-sm sm:text-base text-gray-500 text-center">Enjoy the convenience of long-term rentals without the burden of ownership. <a href="#" className='text-yellow-400'> Learn More</a></p>
-              </div>
+            <div data-aos="fade-up" data-aos-delay="500">
+              <h3 className="text-xl font-semibold">Real-Time Flight Tracking</h3>
+              <p>Stay informed with real-time flight tracking, ensuring you are always aware of your aircraft's status and location.</p>
             </div>
           </div>
         </div>
       </div>
+
+
+
+      {/* Reviews Section */}
+      <div className="px-5 sm:px-10 py-10 sm:py-16 bg-white">
+        <div className="mx-auto max-w-2xl sm:max-w-7xl">
+          <h2 className="text-2xl sm:text-4xl text-center font-bold tracking-tight text-gray-700 mb-4">What Our Clients Say</h2>
+          <div className="space-y-6">
+            <div className="bg-gray-100 p-6 rounded-lg shadow-md" data-aos="fade-up">
+              <p className="text-gray-700 italic">“It was awesome experience, driver was so supportive and punctual too. Had no issue face during the travel time.
+                Fare was charged upto the market standard.
+                I will recommend everyone to go with Trip-C travel for your future travels.”</p>
+              <p className="text-gray-600 font-semibold mt-2">- Soumya Ranjan Rout</p>
+            </div>
+            <div className="bg-gray-100 p-6 rounded-lg shadow-md" data-aos="fade-up" data-aos-delay="200">
+              <p className="text-gray-700 italic">“Thank you for a very great and friendly service. Driver was so helpful and polite. Excellent instructions
+                and punctual for pickup. As a single lady travelling with small kid it was safe at night to airport and driver helped a lot to handle
+                the luggage as well. Definitely we will make use of your service in future.”</p>
+              <p className="text-gray-600 font-semibold mt-2">-ASWATHI KARUNAKARAN</p>
+            </div>
+            <div className="bg-gray-100 p-6 rounded-lg shadow-md" data-aos="fade-up" data-aos-delay="100">
+              <p className="text-gray-700 italic">“Sridhar driving was  smooth and well maintained CAR . Overall quite  happy with the services.”</p>
+              <p className="text-gray-600 font-semibold mt-2">-Sana Srikanth</p>
+            </div>
+            <div className="bg-gray-100 p-6 rounded-lg shadow-md" data-aos="fade-up" data-aos-delay="200">
+              <p className="text-gray-700 italic">“Awesome service, one time pick up on time drop n we'll maintained vehicle ... very friendly driver...thanks to the team...”</p>
+              <p className="text-gray-600 font-semibold mt-2">-Shilpa Raju</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
 
       <div className="bg-white px-5 sm:px-10 py-10 sm:py-16">
         <div className="mx-auto max-w-2xl sm:max-w-7xl">
-          <h2 className="text-2xl sm:text-4xl text-center font-bold tracking-tight text-gray-700 mb-4">Key Corporate Features</h2>
+          <h2 className="text-2xl sm:text-4xl text-center font-bold tracking-tight text-gray-700 mb-4">Premium Business Travel Services</h2>
 
           {/* Grid for feature cards */}
           <div className="mt-6 grid grid-cols-1 gap-6 sm:grid-cols-3 lg:grid-cols-3">
@@ -233,11 +118,11 @@ let CorporateTravels=()=>{
               <img
                 src={nosurgepricing_yellow}
                 alt="No Surge Pricing"
-                className="h-24 w-24 object-contain mb-4"
+                className="h-44 w-44 object-contain mb-4"
               />
-              <h3 className="text-xl sm:text-2xl text-center text-black font-semibold mb-2">No Surge Pricing</h3>
+              <h3 className="text-xl sm:text-2xl text-center text-black font-semibold mb-2">Consistent Pricing</h3>
               <p className="text-sm sm:text-base text-gray-500 text-center">
-                At Carzonrent, we guarantee no surge pricing for our Corporate Solutions, providing predictable, cost-effective travel options for businesses.
+                At TRIP-C, we ensure a fixed rate for our corporate travel services, eliminating unexpected costs and providing consistent and reliable pricing for all your business trips.
               </p>
             </div>
 
@@ -246,11 +131,12 @@ let CorporateTravels=()=>{
               <img
                 src={automatedbookingtools}
                 alt="Automated Booking Tools"
-                className="h-24 w-24 object-contain mb-4"
+                className="h-44 w-44 object-contain mb-4"
               />
-              <h3 className="text-xl sm:text-2xl text-center text-black font-semibold mb-2">Automated Booking Tools</h3>
+              <h3 className="text-xl sm:text-2xl text-center text-black font-semibold mb-2">Effortless Booking System</h3>
               <p className="text-sm sm:text-base text-gray-500 text-center">
-                This functionality streamlines the process and ensures a smooth collaboration between Carzonrent and corporate entities.
+                TRIP-C offers an advanced booking system that simplifies travel arrangements, streamlining the process for seamless
+                coordination and efficient management between your business and our services.
               </p>
             </div>
 
@@ -259,11 +145,12 @@ let CorporateTravels=()=>{
               <img
                 src={helpline}
                 alt="24*7 Helpline"
-                className="h-24 w-24 object-contain mb-4"
+                className="h-44 w-44 object-contain mb-4"
               />
               <h3 className="text-xl sm:text-2xl text-center text-black font-semibold mb-2">24*7 Helpline</h3>
               <p className="text-sm sm:text-base text-gray-500 text-center">
-                Carzonrent ensures customer satisfaction with a dedicated helpline, providing round-the-clock assistance for any queries or concerns.
+                TRIP-C provides unwavering support with our 24/7 helpline, ensuring that your queries and concerns are
+                addressed promptly, no matter the time of day.
               </p>
             </div>
 
@@ -277,11 +164,12 @@ let CorporateTravels=()=>{
               <img
                 src={flexiblepaymentoption}
                 alt="Flexible Payment Options"
-                className="h-24 w-24 object-contain mb-4"
+                className="h-44 w-44 object-contain mb-4"
               />
-              <h3 className="text-xl sm:text-2xl text-center text-black font-semibold mb-2">Flexible Payment Options</h3>
+              <h3 className="text-xl sm:text-2xl text-center text-black font-semibold mb-2">Streamlined Payment Solutions</h3>
               <p className="text-sm sm:text-base text-gray-500 text-center">
-              A simplified billing process where companies can pay monthly instead of per transaction, ensuring ease and efficiency in financial management.
+                TRIP-C offers flexible billing options, allowing companies to manage payments on a monthly basis instead of per transaction.
+                This approach simplifies financial management and enhances efficiency.
               </p>
             </div>
 
@@ -290,11 +178,11 @@ let CorporateTravels=()=>{
               <img
                 src={transparentbilling}
                 alt="Transparent Billing"
-                className="h-24 w-24 object-contain mb-4"
+                className="h-44 w-44 object-contain mb-4"
               />
-              <h3 className="text-xl sm:text-2xl text-center text-black font-semibold mb-2  ">Transparent Billing</h3>
+              <h3 className="text-xl sm:text-2xl text-center text-black font-semibold mb-2 ">Simplified Invoicing</h3>
               <p className="text-sm sm:text-base text-gray-500 text-center">
-              At Carzonrent, we champion transparency with a straightforward, easy-to-understand billing system, leaving no room for hidden charges.
+                TRIP-C delivers clear and concise invoices with detailed breakdowns, ensuring straightforward and transparent financial management for your corporate travel needs.
               </p>
             </div>
 
