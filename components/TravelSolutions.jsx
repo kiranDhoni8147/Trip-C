@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react'
+import { Link } from 'react-router-dom';
 // import './TravelSolutions.css'
 
 const TravelSolutions = () => {
@@ -31,7 +32,7 @@ const TravelSolutions = () => {
                     <img src="	https://img.freepik.com/free-photo/handsome-bearded-manager-entering-his-car-while-standing-outdoors-streets-city-near-modern-office-center_496169-510.jpg?uid=P77132068&ga=GA1.1.1678051510.1721624355&semt=ais_user-customized" className='travel-solution-img w-[500px] h-[370px] sm-max:w-full sm-max:h-auto sm-max:mb-[10px]' alt="" />
                     <div className="travel-solution-info sm-max:px-2">
                         <span className="travel-sol-info-header text-[28px] font-bold text-[#191f1a] cursor-pointer sm-max:mt-[10px] sm-max:text-[16px]">
-                            Corporate Travel
+                        <Link to="/corporatetravels">Corporate Travels</Link>
                             <i className="fa-solid fa-arrow-right arrow arrow ml-[20px] transition-all duration-[0.2s] ease-in-out hover:ml-[30px]"></i>
                         </span>
                         <div className="travel-sol-info-body mt-[20px] w-[400px] text-[18px] text-[#797979] leading-[30px] sm-max:mt-[10px] sm-max:w-full sm-max:text-[14px] sm-max:leading-normal sm-max:my-[10px]">
@@ -43,7 +44,7 @@ const TravelSolutions = () => {
                 <div className="travel-solution flex justify-evenly items-center mb-[80px] sm-max:mb-[40px] sm-max:p-[0_10px] sm-max:flex-wrap transition-all duration-200 ease hidden-sol-right transform translate-x-[100px] sm-max:translate-x-[50px] opacity-0 sm-max:flex-col-reverse">
                     <div className="travel-solution-info">
                         <span className="travel-sol-info-header text-[28px] font-bold text-[#191f1a] cursor-pointer sm-max:mt-[10px] sm-max:text-[16px]">
-                            SME Travel
+                        <Link to="/smetravels">SME Travels</Link>
                             <i className="fa-solid fa-arrow-right arrow arrow ml-[20px] transition-all duration-[0.2s] ease-in-out hover:ml-[30px]"></i>
                         </span>
                         <div className="travel-sol-info-body mt-[20px] w-[400px] text-[18px] text-[#797979] leading-[30px] sm-max:mt-[10px] sm-max:w-full sm-max:text-[14px] sm-max:leading-normal sm-max:my-[10px]">
@@ -57,7 +58,7 @@ const TravelSolutions = () => {
                     <img src="https://img.freepik.com/free-photo/jumbo-jet-flying-sky_23-2150895689.jpg?uid=P77132068&ga=GA1.1.1678051510.1721624355&semt=ais_user-customized" className='travel-solution-img w-[500px] h-[370px] sm-max:w-full sm-max:h-auto sm-max:mb-[10px]' alt="" />
                     <div className="travel-solution-info">
                         <span className="travel-sol-info-header text-[28px] font-bold text-[#191f1a] cursor-pointer sm-max:mt-[10px] sm-max:text-[16px]">
-                            Aviation Travel Solutions
+                        <Link to="/aviationtravelsolutions">Aviation Travel Solutions</Link>
                             <i className="fa-solid fa-arrow-right arrow arrow ml-[20px] transition-all duration-[0.2s] ease-in-out hover:ml-[30px]"></i>
                         </span>
                         <div className="travel-sol-info-body mt-[20px] w-[400px] text-[18px] text-[#797979] leading-[30px] sm-max:mt-[10px] sm-max:w-full sm-max:text-[14px] sm-max:leading-normal sm-max:my-[10px]">
@@ -69,7 +70,7 @@ const TravelSolutions = () => {
                 <div className="travel-solution flex justify-evenly items-center mb-[80px] sm-max:mb-[40px] sm-max:p-[0_10px] sm-max:flex-wrap transition-all duration-200 ease hidden-sol-right transform translate-x-[100px] sm-max:translate-x-[50px] opacity-0 sm-max:flex-col-reverse">
                     <div className="travel-solution-info">
                         <span className="travel-sol-info-header text-[28px] font-bold text-[#191f1a] cursor-pointer sm-max:mt-[10px] sm-max:text-[16px]">
-                            Gov & PSU's Travel
+                        <Link to="/govpsutravel">Gov & PSU's Travel</Link>
                             <i className="fa-solid fa-arrow-right arrow arrow ml-[20px] transition-all duration-[0.2s] ease-in-out hover:ml-[30px]"></i>
                         </span>
                         <div className="travel-sol-info-body mt-[20px] w-[400px] text-[18px] text-[#797979] leading-[30px] sm-max:mt-[10px] sm-max:w-full sm-max:text-[14px] sm-max:leading-normal sm-max:my-[10px]">
@@ -83,7 +84,7 @@ const TravelSolutions = () => {
                     <img src="https://img.freepik.com/premium-photo/female-chauffeur-helps-business-people-get-out-vehicle_506452-23518.jpg?uid=P77132068&ga=GA1.1.1678051510.1721624355&semt=ais_user-customized" className='travel-solution-img w-[500px] h-[370px] sm-max:w-full sm-max:h-auto sm-max:mb-[10px]' alt="" />
                     <div className="travel-solution-info">
                         <span className="travel-sol-info-header text-[28px] font-bold text-[#191f1a] cursor-pointer sm-max:mt-[10px] sm-max:text-[16px]">
-                            Hospitality Travel
+                        <Link to="/hospitalitytravel">Hospitality Travel</Link>
                             <i className="fa-solid fa-arrow-right arrow arrow ml-[20px] transition-all duration-[0.2s] ease-in-out hover:ml-[30px]"></i>
                         </span>
                         <div className="travel-sol-info-body mt-[20px] w-[400px] text-[18px] text-[#797979] leading-[30px] sm-max:mt-[10px] sm-max:w-full sm-max:text-[14px] sm-max:leading-normal sm-max:my-[10px]">

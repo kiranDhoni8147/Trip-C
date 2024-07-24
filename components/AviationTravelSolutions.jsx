@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import {
-  helpline, flexiblepaymentoption,airlinetravelsbanner, nosurgepricing_yellow, transparentbilling, automatedbookingtools
+  helpline, flexiblepaymentoption, airlinetravelsbanner, nosurgepricing_yellow, transparentbilling, automatedbookingtools
 } from '../src/assets';
 
 const AviationTravelSolutions = () => {
@@ -23,9 +23,9 @@ const AviationTravelSolutions = () => {
 
             <hr className="border-yellow-400 border-solid border-t-4 w-40 mb-6 sm:mb-10" data-aos="fade-down" data-aos-delay="400" />
 
-            <p className="text-lg sm:text-xl mb-6 sm:mb-12 mt-2 sm:mt-4 font-bold">Experience unparalleled comfort and elegance with our 
+            <p className="text-lg sm:text-xl mb-6 sm:mb-12 mt-2 sm:mt-4 font-bold">Experience unparalleled comfort and elegance with our
               premier chauffeur services. Arrive at the airport in style and on time, every time. Enjoy a seamless journey with our professional
-               drivers and luxurious vehicles tailored to your needs.</p>
+              drivers and luxurious vehicles tailored to your needs.</p>
           </div>
         </main>
 
@@ -50,7 +50,7 @@ const AviationTravelSolutions = () => {
 
 
 
-      {/* Reviews Section */}
+
       <div className="px-5 sm:px-10 py-10 sm:py-16 bg-gray-100">
         <div className="mx-auto max-w-2xl sm:max-w-7xl">
           <h2 className="text-2xl sm:text-4xl text-center font-bold tracking-tight text-gray-700 mb-4">Why Choose TRIP-C for Aviation Travel Solutions?</h2>
@@ -80,6 +80,34 @@ const AviationTravelSolutions = () => {
       </div>
 
 
+      {/* Reviews Section */}
+      <div className="px-5 sm:px-10 py-10 sm:py-16 bg-white">
+        <div className="mx-auto max-w-2xl sm:max-w-7xl">
+          <h2 className="text-2xl sm:text-4xl text-center font-bold tracking-tight text-gray-700 mb-4">What Our Clients Say</h2>
+          <div className="space-y-6">
+            <div className="bg-gray-100 p-6 rounded-lg shadow-md" data-aos="fade-up">
+              <p className="text-gray-700 italic">“It was awesome experience, driver was so supportive and punctual too. Had no issue face during the travel time.
+                Fare was charged upto the market standard.
+                I will recommend everyone to go with Trip-C travel for your future travels.”</p>
+              <p className="text-gray-600 font-semibold mt-2">- Soumya Ranjan Rout</p>
+            </div>
+            <div className="bg-gray-100 p-6 rounded-lg shadow-md" data-aos="fade-up" data-aos-delay="200">
+              <p className="text-gray-700 italic">“Thank you for a very great and friendly service. Driver was so helpful and polite. Excellent instructions
+                and punctual for pickup. As a single lady travelling with small kid it was safe at night to airport and driver helped a lot to handle
+                the luggage as well. Definitely we will make use of your service in future.”</p>
+              <p className="text-gray-600 font-semibold mt-2">-ASWATHI KARUNAKARAN</p>
+            </div>
+            <div className="bg-gray-100 p-6 rounded-lg shadow-md" data-aos="fade-up" data-aos-delay="100">
+              <p className="text-gray-700 italic">“Sridhar driving was  smooth and well maintained CAR . Overall quite  happy with the services.”</p>
+              <p className="text-gray-600 font-semibold mt-2">-Sana Srikanth</p>
+            </div>
+            <div className="bg-gray-100 p-6 rounded-lg shadow-md" data-aos="fade-up" data-aos-delay="200">
+              <p className="text-gray-700 italic">“Awesome service, one time pick up on time drop n we'll maintained vehicle ... very friendly driver...thanks to the team...”</p>
+              <p className="text-gray-600 font-semibold mt-2">-Shilpa Raju</p>
+            </div>
+          </div>
+        </div>
+      </div>
 
       <div className="bg-white px-5 sm:px-10 py-10 sm:py-16">
         <div className="mx-auto max-w-2xl sm:max-w-7xl">
@@ -141,7 +169,7 @@ const AviationTravelSolutions = () => {
                 alt="Flexible Payment Options"
                 className="h-44 w-44 object-contain mb-4"
               />
-              <h3 className="text-xl sm:text-2xl text-center text-black font-semibold mb-2">Elevate Your Travel Experience with 
+              <h3 className="text-xl sm:text-2xl text-center text-black font-semibold mb-2">Elevate Your Travel Experience with
                 TRIP-C's Aviation Solutions</h3>
               <p className="text-sm sm:text-base text-gray-500 text-center">
                 TRIP-C offers flexible billing options, allowing companies to manage payments on a monthly basis instead of per transaction.
