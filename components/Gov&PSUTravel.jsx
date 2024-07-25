@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import {
-  helpline, flexiblepaymentoption, nosurgepricing_yellow, psubanner, transparentbilling, automatedbookingtools
+  helpline, flexiblepaymentoption,govpsutravelvideo, nosurgepricing_yellow, psubanner, transparentbilling, automatedbookingtools
 } from '../src/assets';
 
 const GovPsuTravel = () => {
@@ -12,14 +12,21 @@ const GovPsuTravel = () => {
 
   return (
     <div>
-      <div className="w-full min-h-screen" style={{
-        backgroundImage: `url(${psubanner})`, backgroundSize: 'cover', backgroundPosition: 'center',
-        backgroundRepeat: 'no-repeat'
-      }}>
+      <div className="relative w-full min-h-screen">
+        <video
+          className="absolute inset-0 w-full h-full object-cover"
+          src={govpsutravelvideo}
+          type="video/mp4"
+          autoPlay
+          loop
+          muted
+        >
+          Your browser does not support the video tag.
+        </video>
 
-        <main className="flex flex-col items-start justify-center font-serif font-bold italic text-lg text-orange-500 text-left py-10 px-5 sm:py-20 sm:px-10">
-          <div className="max-w-4xl mt-10 sm:mt-24 sm:ml-20" data-aos="fade-down" data-aos-delay="400">
-            <h1 className="text-3xl sm:text-5xl font-bold mb-4">Elevate Your Travel Experience with TRIP-C's PSU Travel Solutions</h1>
+        <main className="flex flex-col items-start justify-center font-serif font-bold italic text-lg text-gray-300 text-left py-10 px-5 sm:py-20 sm:px-10">
+          <div className="max-w-4xl mt-5 sm:mt-10 sm:ml-20" data-aos="fade-down" data-aos-delay="400">
+            <h1 className="text-3xl sm:text-5xl font-bold mb-8">Elevate Your Travel Experience with TRIP-C's PSU Travel Solutions</h1>
 
             <hr className="border-red-400 border-solid border-t-4 w-40 mb-6 sm:mb-10" data-aos="fade-down" data-aos-delay="400" />
 
@@ -34,8 +41,8 @@ const GovPsuTravel = () => {
 
 
             {/* Button Section */}
-            <div className="text-end mr-10 sm:ml-0" data-aos="fade-left" data-aos-delay="400">
-              <button className="hover:bg-orange-400 bg-orange-500 text-slate-100 hover:text-slate-200 px-4 py-2 sm:px-6 sm:py-3 rounded-lg text-lg sm:text-xl">
+            <div className="text-end mr-10 mt-32 sm:ml-0" data-aos="fade-left" data-aos-delay="400">
+              <button className="hover:bg-slate-400 bg-gray-300 text-gray-800 hover:text-slate-200 px-4 py-2 sm:px-6 sm:py-3 rounded-lg text-lg sm:text-xl">
                 Get In Touch
               </button>
             </div>

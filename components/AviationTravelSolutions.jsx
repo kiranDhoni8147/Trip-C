@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import {
-  helpline, flexiblepaymentoption, airlinetravelsbanner, nosurgepricing_yellow, transparentbilling, automatedbookingtools
+  helpline, flexiblepaymentoption,airplanevideo, nosurgepricing_yellow, transparentbilling, automatedbookingtools
 } from '../src/assets';
 
 const AviationTravelSolutions = () => {
@@ -12,10 +12,17 @@ const AviationTravelSolutions = () => {
 
   return (
     <div>
-      <div className="w-full min-h-screen" style={{
-        backgroundImage: `url(${airlinetravelsbanner})`, backgroundSize: 'cover', backgroundPosition: 'center',
-        backgroundRepeat: 'no-repeat'
-      }}>
+      <div className="relative w-full min-h-screen">
+        <video
+          className="absolute inset-0 w-full h-full object-cover"
+          src={airplanevideo}
+          type="video/mp4"
+          autoPlay
+          loop
+          muted
+        >
+          Your browser does not support the video tag.
+        </video>
 
         <main className="flex flex-col items-start justify-center font-serif font-bold italic text-lg text-white text-left py-10 px-5 sm:py-20 sm:px-10">
           <div className="max-w-4xl mt-10 sm:mt-24 sm:ml-20" data-aos="fade-down" data-aos-delay="400">
@@ -37,7 +44,7 @@ const AviationTravelSolutions = () => {
 
             {/* Button Section */}
             <div className="text-end mr-10 sm:ml-0" data-aos="fade-left" data-aos-delay="400">
-              <button className="hover:bg-yellow-300 bg-yellow-600 text-black font-bold hover:text-orange-500 px-4 py-2 sm:px-6 sm:py-3 rounded-lg text-lg sm:text-xl">
+              <button className="hover:bg-gray-400 bg-gray-300 text-black font-bold hover:text-gray-900 px-4 py-2 sm:px-6 sm:py-3 rounded-lg text-lg sm:text-xl">
                 Get In Touch
               </button>
             </div>
