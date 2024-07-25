@@ -51,4 +51,6 @@ export {default as medal} from '../assets/SocialMedia/medal.jpg'
 export {default as carbackground} from '../assets/Other/carbackground.jpg';
 export {default as carbackground2} from '../assets/Other/carbackground2.jpg';
 export {default as aboutuscarvideo} from '../assets/Other/aboutuscarvideo.mp4'
+export {default as airplanevideo} from '../assets/Other/aviationtravelsoultions.mp4';
 
+export {default as govpsutravelvideo} from '../assets/Other/govpsutravels.mp4';
