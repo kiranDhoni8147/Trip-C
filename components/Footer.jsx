@@ -77,10 +77,10 @@ const Footer = () => {
                     </div>
                     <div className="social-media mb-4 sm-max:mb-0">
                         <ul className="social-media-links flex gap-4">
-                            <li><a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/carzonrent"><img src="https://www.carzonrent.com/webcor/images/icons/facebook_icon.svg" alt="Facebook" /></a></li>
-                            <li><a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/carzonrentin/?hl=hi"><img src="https://www.carzonrent.com/webcor/images/icons/instagram.svg" alt="Instagram" /></a></li>
-                            <li><a target="_blank" rel="noopener noreferrer" href="https://twitter.com/CarzonrentIN"><img src="https://www.carzonrent.com/webcor/images/icons/twitter.svg" alt="Twitter" /></a></li>
-                            <li><a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/company/carzonrent-india-pvt-ltd"><img src="https://www.carzonrent.com/webcor/images/icons/linkedin.svg" alt="LinkedIn" /></a></li>
+                            <li><a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/carzonrent"><img src="https://www.carzonrent.com/webcor/images/icons/facebook_icon.svg" className='h-[32px] sm-max:h-[16px]' alt="Facebook" /></a></li>
+                            <li><a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/carzonrentin/?hl=hi"><img src="https://www.carzonrent.com/webcor/images/icons/instagram.svg" className='h-[32px] sm-max:h-[16px]' alt="Instagram" /></a></li>
+                            <li><a target="_blank" rel="noopener noreferrer" href="https://twitter.com/CarzonrentIN"><img src="https://www.carzonrent.com/webcor/images/icons/twitter.svg" className='h-[32px] sm-max:h-[16px]' alt="Twitter" /></a></li>
+                            <li><a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/company/carzonrent-india-pvt-ltd"><img src="https://www.carzonrent.com/webcor/images/icons/linkedin.svg" className='h-[32px] sm-max:h-[16px]' alt="LinkedIn" /></a></li>
                         </ul>
                     </div>
                     <div className="contact-info">

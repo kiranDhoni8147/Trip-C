@@ -1,9 +1,11 @@
 import React, { useState } from 'react';
 import './Navbar.css';
 import { Link } from 'react-router-dom';
+import LoginForm from './LoginForm';
 
 const Navbar = () => {
     const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+    const [toggleForm, setToggleForm] = useState(false);
 
     const toggleMobileMenu = () => {
         setIsMobileMenuOpen(!isMobileMenuOpen);
@@ -16,7 +18,7 @@ const Navbar = () => {
             </div>
             <div className="nav-interact">
                 <div className="nav-hrefs-wrapper">
-                    <div className="nav-hrefs" style={{ color: '#fc0' }}>
+                    <div className="nav-hrefs">
                         <img src="https://www.carzonrent.com/webcor/images/icons/discount-icon.svg" alt="Discount Icon" />
                         Travel Packages
                     </div>
@@ -119,10 +121,13 @@ const Navbar = () => {
                     <div className="nav-hrefs"><Link to="/contactus">Contact Us</Link></div>
                 </div>
             </div>
-            <div className="login-signup-btn">
+            <div className="login-signup-btn" onClick={()=>setToggleForm(!toggleForm)}>
                 <i className="fa-solid fa-user"></i>
                 <span className='sm-max:hidden'>Login/SignUp</span>
             </div>
+
+            {toggleForm && <LoginForm setToggleForm={setToggleForm}/>}
+
         </div>
     );
 };
