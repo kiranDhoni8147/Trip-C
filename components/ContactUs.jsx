@@ -31,7 +31,7 @@ const ContactUs = () => {
       <div className="min-h-screen flex items-center justify-center bg-white">
         <div className="flex flex-col lg:flex-row w-full max-w-7xl mx-auto p-4 lg:p-8 space-y-8 lg:space-y-0 lg:space-x-32">
           {/* Form */}
-          <div className="w-full lg:w-1/2 bg-gray-100 p-4 lg:p-8 rounded-lg" data-aos="slide-right" data-delay="400">
+          <div className="w-full lg:w-1/2 bg-gray-100 p-4 lg:p-8 rounded-lg">
             <form>
               <div className={gridClasses}>
                 <div>
@@ -69,7 +69,7 @@ const ContactUs = () => {
           
           {/* Contact Information */}
           <div className="w-full lg:w-1/2">
-            <img src={contactus} alt="" data-aos="slide-left" data-delay="400" className="w-full h-auto rounded-lg" />
+            <img src={contactus} alt="" className="w-full h-auto rounded-lg" />
           </div>
         </div>
       </div>
@@ -79,11 +79,11 @@ const ContactUs = () => {
 
         {/* Image */}
         <div className="w-full lg:w-2/3">
-            <img src={contactusdetails} alt="" data-aos="slide-right" data-delay="300" className="w-full h-auto rounded-lg" />
+            <img src={contactusdetails} alt=""  className="w-full h-auto rounded-lg" />
           </div>
 
           {/* Contact Information */}
-          <div className="w-full bg-gray-100 p-4 lg:p-8 rounded-lg shadow-lg" data-aos="slide-left" data-delay="300">
+          <div className="w-full bg-gray-100 p-4 lg:p-8 rounded-lg shadow-lg">
             <h2 className="text-3xl text-gray-900 font-extrabold mb-8">Contact Information</h2>
             <div className="space-y-10">
               <p className="flex items-center text-gray-800">
