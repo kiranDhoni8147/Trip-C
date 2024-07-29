@@ -14,7 +14,7 @@ const Navbar = () => {
     return (
         <div className="carzonrent-navbar">
             <div className="left-logo">
-                <img src="/Trip-C_logo.jpeg" alt="" />
+            <Link to="/"><img src="/Trip-C_logo.jpeg" className='w-52 h-20' alt=""/></Link>
             </div>
             <div className="nav-interact">
                 <div className="nav-hrefs-wrapper">
