@@ -13,8 +13,12 @@ import Footer from '../components/Footer';
 import './App.css';
 import HospitalityTravel from '../components/HospitalityTravel';
 import ScrollToTop from '../components/ScrollToTop';
+<<<<<<< HEAD
 import RideDetails from '../components/RideDetails';
 import FinalDetails from '../components/FinalDetails';
+=======
+import { Link } from 'react-router-dom';
+>>>>>>> 5579824757fdf13e003e574a58366a003901986b
 
 function App() {
     return (
@@ -41,7 +45,7 @@ function App() {
                     <div className="about-us-body mb-[20px] text-[#797979]">
                         C is India's leading premium mobility solution provider, covering 79 cities nationwide, founded to revolutionize personal ground transportation. Pioneers of smart mobility, we offer reliable, tech-driven, business class solutions for seamless travel experiences.
                     </div>
-                    <button className='read-more-btn px-[25px] py-[10px] border border-yellow-400 rounded-full text-yellow-400 transition-all duration-[0.15s] ease-in-out sm:w-full hover:bg-yellow-400 hover:text-black'>Read More</button>
+                    <button className='read-more-btn px-[25px] py-[10px] border border-red-400 rounded-full text-red-400 transition-all duration-[0.15s] ease-in-out sm:w-full hover:bg-red-400 hover:text-black'><Link to="/aboutus">Read More</Link></button>
                 </div>
             </div>
 

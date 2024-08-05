@@ -14,7 +14,7 @@ const Navbar = () => {
     return (
         <div className="carzonrent-navbar">
             <div className="left-logo">
-                <img src="/Trip-C_logo.jpeg" alt="" />
+            <Link to="/"><img src="/Trip-C_logo.jpeg" className='w-52 h-20' alt=""/></Link>
             </div>
             <div className="nav-interact">
                 <div className="nav-hrefs-wrapper">
@@ -25,7 +25,7 @@ const Navbar = () => {
                     <div className="nav-hrefs">
                         Business Solutions
                         <div className="biz-sol-modal">
-                            <ul className="biz-sol-list">
+                            <ul className="biz-sol-list font-semibold text-red-400">
                                 <li className="biz-sol-list-item"><Link to="/corporatetravels">Corporate Travels</Link></li>
                                 <li className="biz-sol-list-item"><Link to="/smetravels">SME Travels</Link></li>
                                 <li className="biz-sol-list-item"><Link to="/aviationtravelsolutions">Aviation Travel Solutions</Link></li>
@@ -34,7 +34,7 @@ const Navbar = () => {
                             </ul>
                         </div>
                     </div>
-                    <div className="nav-hrefs">
+                    {/* <div className="nav-hrefs">
                         Services
                         <div className="services-modal">
                             <div className="services-for-biz">
@@ -62,7 +62,7 @@ const Navbar = () => {
                                 </ul>
                             </div>
                         </div>
-                    </div>
+                    </div> */}
                     <div className="nav-hrefs">Blog</div>
                     <div className="nav-hrefs"><Link to="/aboutus">About Us</Link></div>
                     <div className="nav-hrefs"><Link to="/contactus">Contact Us</Link></div>
