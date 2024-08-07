@@ -22,7 +22,7 @@ const SMETravels = () => {
                         <h1 className="text-3xl sm:text-5xl font-bold mb-4">Elevate Your Travel Experience with 
                             TRIP-C's SME Solutions</h1>
 
-                        <hr className="border-yellow-400 border-solid border-t-4 w-40 mb-6 sm:mb-10" data-aos="fade-down" data-aos-delay="400" />
+                        <hr className="text-red-400 border-solid border-t-4 w-40 mb-6 sm:mb-10" data-aos="fade-down" data-aos-delay="400" />
 
                         <p className="text-lg sm:text-xl mb-6 sm:mb-12 mt-2 sm:mt-4 font-bold">Travel in utmost luxury and sophistication with our 
                             premier chauffeur services. <br /> Whether for business or leisure, enjoy a smooth and punctual airport transfer, <br /> with every

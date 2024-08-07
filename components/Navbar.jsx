@@ -14,18 +14,18 @@ const Navbar = () => {
     return (
         <div className="carzonrent-navbar">
             <div className="left-logo">
-            <Link to="/"><img src="/Trip-C_logo.jpeg" className='w-52 h-20' alt=""/></Link>
+              <img src="/Trip-C_logo.jpeg" className='w-52 h-20' alt=""/>
             </div>
             <div className="nav-interact">
                 <div className="nav-hrefs-wrapper">
                     <div className="nav-hrefs">
                         <img src="https://www.carzonrent.com/webcor/images/icons/discount-icon.svg" alt="Discount Icon" />
-                        Travel Packages
+                        <Link to="/">Travel Package</Link>
                     </div>
                     <div className="nav-hrefs">
                         Business Solutions
                         <div className="biz-sol-modal">
-                            <ul className="biz-sol-list font-semibold text-red-400">
+                            <ul className="biz-sol-list font-semibold">
                                 <li className="biz-sol-list-item"><Link to="/corporatetravels">Corporate Travels</Link></li>
                                 <li className="biz-sol-list-item"><Link to="/smetravels">SME Travels</Link></li>
                                 <li className="biz-sol-list-item"><Link to="/aviationtravelsolutions">Aviation Travel Solutions</Link></li>

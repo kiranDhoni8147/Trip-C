@@ -13,12 +13,9 @@ import Footer from '../components/Footer';
 import './App.css';
 import HospitalityTravel from '../components/HospitalityTravel';
 import ScrollToTop from '../components/ScrollToTop';
-<<<<<<< HEAD
 import RideDetails from '../components/RideDetails';
 import FinalDetails from '../components/FinalDetails';
-=======
 import { Link } from 'react-router-dom';
->>>>>>> 5579824757fdf13e003e574a58366a003901986b
 
 function App() {
     return (
